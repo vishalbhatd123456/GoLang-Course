@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import ("fmt")
 
 func main(){
-	fmt.Println("Hello");
+	const name, age = "Vishal", 24
+	fmt.Printf("%sis %d years old. \n",name, age)
 }
